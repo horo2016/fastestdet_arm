@@ -16,10 +16,10 @@ python3 test.py --yaml datasets/ts.yaml --weight weights/weight_AP05xx.pth --img
 cv-dnn
 onnx-runtime
 
-'orangepi@orangepizero2:~/yolo/FastestDet-main/example/onnx-runtime$ python3 runtime.py 
-(9, 22, 22)
-22
-22
+'orangepi@orangepizero2:~/yolo/FastestDet-main/example/onnx-runtime$ python3 runtime.py    
+
+(9, 22, 22)  
+
 forward time:183.014402ms
 =================box info===================
 [175.0, 115.0, 213.0, 165.0, 0.9381985450176394, 3.0]  
