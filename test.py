@@ -8,8 +8,8 @@ from onnxsim import simplify
 import torch
 from utils.tool import *
 from module.detector import Detector
-
-
+import onnxruntime
+import numpy as np
 
 # 检查输出
 def check_onnx_output(filename, input_data, torch_output):
