@@ -1,0 +1,2 @@
+  python test.py --yaml datasets/ts.yaml --weight weights/weight_AP05_0.443771_200-epoch.pth --img w.jpg --onnx
+  python test.py --yaml configs/coco.yaml --weight weights/weight_AP05_0.253207_280-epoch.pth --img data/2.jpg --onnx
